@@ -1,14 +1,26 @@
-layout_spectrum: 0.3960573
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.4569893
 color:
   saturation: 0.1909701
   brandStrength: 0.6379929
-  lightness: 0.7150537
+  rhythmicContrast: 0.4138694
   brandColors:
     - '#FF01FF'
     - '#2D0333'
     - '#FFFFFF'
     - '#6D2565'
     - '#FBA7FB'
-  rhythmicContrast: 0.4138694
-typography_spectrum: 0.5143369
+  lightness: 0.7150537
+layout_spectrum: 0.3960573
 name: LEDs and Cactus
